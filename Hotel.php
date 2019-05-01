@@ -73,7 +73,7 @@ class Hotel {
     public function afficher(){
         echo "Le nom de l'hotel: {$this->getNom()};<br>
                 Le nombre de chambres reservees: {$this->totalChambres()};<br>
-                Le nombre de appartements reservees: {$this->totalApps()};<br>
+                Le nombre de appartements reserves: {$this->totalApps()};<br>
                 Le nombre de chambres et appartements disponibles: {$this->chambreDisponible()};<br>
                 Le detail de reservations:<br>";
                 if(!$this->totalChambres()== 0||!$this->totalApps()== 0){
